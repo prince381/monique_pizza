@@ -36,9 +36,13 @@
 html {
     font-size: 10px;
     font-family: 'Lato',sans-serif;
-    overflow-x: hidden;
     scroll-behavior: smooth;
 }
+
+html, body {
+    position:relative;
+    overflow-x:hidden;
+  }
 
 ul {
     list-style: none;
@@ -1155,6 +1159,10 @@ footer .links-wrapper {
     .comp-name {
         font-size: 5rem;
         text-align: center;
+    }
+
+    .nav-list li {
+        padding: 2.5rem 0;
     }
 }
 
