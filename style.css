@@ -1151,6 +1151,13 @@ footer .links-wrapper {
     }
 }
 
+@media screen and (max-width:350px) {
+    .comp-name {
+        font-size: 5rem;
+        text-align: center;
+    }
+}
+
 .nav-opened {
     transform: translateX(0);
 }
