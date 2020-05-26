@@ -130,7 +130,7 @@ document.addEventListener('DOMContentLoaded',() => {
     const secOptions = {
         root: null,
         rootMargin: "0px",
-        threshold: .7
+        threshold: .4
     };
 
     var infObserver = new IntersectionObserver((entries,infObserver) => {
